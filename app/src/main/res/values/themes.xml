@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FinalOne" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FinalOne" parent="Base.Theme.FinalOne"></style>
+
+    <style name="MyProgressbar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorSecondary">#2196f3</item>
+    </style>
+
+    <style name="Theme.FinalOne.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FinalOne.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FinalOne.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49495187064",
+    "project_id": "finalone-71abf",
+    "storage_bucket": "finalone-71abf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49495187064:android:549f8ced070bdb5400578d",
+        "android_client_info": {
+          "package_name": "com.example.finalone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnAnTZ89dypXWxkecWqK5F3JFhO4ToFu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".SigninActivity">
+
+    <ProgressBar
+        android:id="@+id/signinprogress"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:theme="@style/MyProgressbar"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"
+            android:color="@color/white"
+            android:text="Welcome back,"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to continue"
+            android:color="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:hint="Email Address"
+                android:id="@+id/signinemail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#404040"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signinpasswordlayout"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:hint="Password"
+
+                android:id="@+id/signinpassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#404040"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+
+            android:id="@+id/signinButton1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="SIGN IN"
+            android:textAllCaps="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forgot Password?"
+            android:textColor="#404040"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/signinbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Reset"
+            android:textColor="#2196F3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/arrow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120F0F"
+    android:backgroundTint="#0F0F10"
+    android:backgroundTintMode="add"
+    android:foregroundTint="#0D2CDA"
+    tools:context=".itemActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="223dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="120dp"
+        android:text="Hello Futsal USers!!"
+        android:textColor="#00BCD4"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="116dp"
+        android:layout_height="68dp"
+        android:foregroundTint="#2196F3"
+        app:tint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+</androidx.constraintlayout.widget.ConstraintLayout>
