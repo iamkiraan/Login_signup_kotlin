@@ -9,13 +9,12 @@ import com.example.finalone.databinding.ActivityOwnerProfileBinding
 import com.example.finalone.databinding.ActivityUserProfBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
-import com.google.firebase.storage.StorageReference
+
 
 class OwnerProfileActivity : AppCompatActivity() {
     private lateinit var binding : ActivityOwnerProfileBinding
     private lateinit var auth: FirebaseAuth
     private lateinit var databaseReference: DatabaseReference
-    private lateinit var storageReference: StorageReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_owner_profile)

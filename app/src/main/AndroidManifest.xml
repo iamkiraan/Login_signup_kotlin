@@ -18,24 +18,7 @@
             android:name=".UserProfActivity"
             android:exported="false" />
         <activity
-            android:name=".UserProActivity"
-            android:exported="false"
-            android:label="@string/title_activity_user_pro"
-            android:theme="@style/Theme.FinalOne.NoActionBar" />
-        <activity
-            android:name=".ScrollingActivity"
-            android:exported="false"
-            android:label="@string/title_activity_scrolling"
-            android:theme="@style/Theme.FinalOne.NoActionBar" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
-        <activity
             android:name=".OwnerProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UserProfileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
